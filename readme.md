@@ -1,6 +1,8 @@
 # Indus Script Knowledge Graph Generator
 
-![GUI Screenshot](screenshot.png) <!-- Add a screenshot later -->
+![GUI Screenshot]
+<img width="1190" height="768" alt="v21" src="https://github.com/user-attachments/assets/5947fd4d-6dc9-434d-8a76-2f7cfefa9040" />
+<!-- Add a screenshot later -->
 
 A semantic tool for analyzing and comparing ancient scripts with a focus on the Indus Valley script. This application generates a knowledge graph from script symbols, enables SPARQL querying, and provides visualization capabilities.
 
