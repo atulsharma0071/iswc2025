@@ -120,33 +120,48 @@ SELECT ?indusSymbol ?otherSymbol ?script ?score WHERE {
 }
 ORDER BY DESC(?score)
 Version History
+
 v2.0 (Current)
-Added comprehensive metrics dashboard
+1. Added comprehensive metrics dashboard
 
-Implemented progress tracking
+2. Implemented progress tracking
 
-Enhanced error handling
+3. Enhanced error handling
 
-Improved performance monitoring
+4. Improved performance monitoring
 
-Optimized KG generation
+5. Optimized KG generation
 
 v1.0
-Initial release with core functionality
+1. Initial release with core functionality
 
-Basic KG generation from script images
+2. Basic KG generation from script images
 
-SPARQL query interface
+3. SPARQL query interface
 
-Multiple export formats
+4. Multiple export formats
 
-Linked Data publishing
+5. Linked Data publishing
 
 Contributing
 Contributions welcome! Please:
 
 Fork the repository
 
-Create a feature branch
 
-Submit a pull request
+
+## Dataset Information
+
+The script symbol images are sourced from the [IVC2TYC repository](https://github.com/oohalakkadi/ivc2tyc/tree/main/datasets) by [oohalakkadi](https://github.com/oohalakkadi). 
+
+### Getting the Dataset
+
+1. **Option 1**: Clone the entire repository
+   ```bash
+   git clone https://github.com/oohalakkadi/ivc2tyc.git
+   cp -r ivc2tyc/datasets/ind ./ind
+
+
+
+
+   
