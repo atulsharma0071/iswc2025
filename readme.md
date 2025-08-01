@@ -85,31 +85,31 @@ python semantic_script_analyzer_v1.py
 
 # For Version 2 
 python semantic_script_analyzer_v2.py
+
+
+
+
 Usage Guide
 Knowledge Graph Generation
 Select dataset folder containing script images
-
 Choose primary script (default: Indus)
-
 Select one or more comparison scripts
-
 Click "Generate Knowledge Graph"
-
 View statistics in the "KG Statistics" tab
+
 
 SPARQL Querying
 Use the SPARQL tab to run queries
-
 Try built-in example queries for common analyses
-
 Export results as CSV or RDF
+
 
 Export Options
 Knowledge Graph: Export full KG in Turtle, RDF/XML, or JSON-LD
-
 Linked Data: Publish as FAIR data with HTML portal
-
 VoID: Generate dataset metadata description
+
+
 
 Example SPARQL Queries
 sparql
@@ -134,6 +134,7 @@ SELECT ?indusSymbol ?otherSymbol ?script ?score WHERE {
 }
 ORDER BY DESC(?score)
 Version History
+
 
 v2.0 (Current)
 1. Added comprehensive metrics dashboard
@@ -169,8 +170,7 @@ Fork the repository
 The script symbol images are sourced from the [IVC2TYC repository](https://github.com/oohalakkadi/ivc2tyc/tree/main/datasets) by [oohalakkadi](https://github.com/oohalakkadi). 
 
 ### Getting the Dataset
-
-1. **Option 1**: Clone the entire repository
+Clone the entire repository
    ```bash
    git clone https://github.com/oohalakkadi/ivc2tyc.git
    cp -r ivc2tyc/datasets/ind ./ind
