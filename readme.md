@@ -163,7 +163,7 @@ Contributions welcome! Please:
 
 Fork the repository
 
-##
+##Demo video is available in demo folder where features of both the versions are shown.
 
 ## Dataset Information
 
@@ -176,7 +176,7 @@ Clone the entire repository
    cp -r ivc2tyc/datasets/ind ./ind
 
 
-Demo video is available in demo folder where features of both the versions are shown.
+
 
 
    
