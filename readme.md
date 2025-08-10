@@ -158,10 +158,6 @@ v1.0
 
 5. Linked Data publishing
 
-Contributing
-Contributions welcome! Please:
-
-Fork the repository
 
 ##Demo video is available in demo folder where features of both the versions are shown.
 
