@@ -6,9 +6,8 @@
 
 A semantic tool for analyzing and comparing ancient scripts with a focus on the Indus Valley script. This application generates a knowledge graph from script symbols, enables SPARQL querying, and provides visualization capabilities.
 
-## Version Comparison
 
-### Version 2 
+### 
 <img width="1190" height="768" alt="v21" src="https://github.com/user-attachments/assets/5947fd4d-6dc9-434d-8a76-2f7cfefa9040" />
 <img width="1180" height="798" alt="v22" src="https://github.com/user-attachments/assets/8c1a213a-6070-4e4f-91a4-e2a0395cff8b" />
 
@@ -22,18 +21,6 @@ Features
 
 
 
-### Version 1
-<img width="1188" height="828" alt="1" src="https://github.com/user-attachments/assets/1b9b7821-4e29-4c72-ae21-8d794c01a234" />
-<img width="1185" height="815" alt="2" src="https://github.com/user-attachments/assets/2c89db11-10ec-43a3-9e11-f3b270971dca" />
-
-
-Features
-- **Core Knowledge Graph Generation**: Creates RDF-based knowledge graph from script symbol images
-- **Basic SPARQL Interface**: Execute and visualize SPARQL queries
-- **Multiple Export Formats**: Turtle, RDF/XML, JSON-LD
-- **Linked Data Publishing**: Generate HTML portal for published datasets
-- **VoID Description**: Create dataset metadata descriptions
-- **Cross-Script Analysis**: Compare Indus script with other ancient scripts
 
 ## Supported Scripts
 - Indus Valley
@@ -79,11 +66,9 @@ ind/
 └── ...
 Run the application:
 
-bash
-# For Version 1
-python semantic_script_analyzer_v1.py
 
-# For Version 2 
+
+# For running the tool
 python semantic_script_analyzer_v2.py
 
 
