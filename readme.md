@@ -149,6 +149,8 @@ v1.0
 ## Dataset Information
 
 The script symbol images are sourced from the [IVC2TYC repository](https://github.com/oohalakkadi/ivc2tyc/tree/main/datasets) by [oohalakkadi](https://github.com/oohalakkadi). 
+For Citing this work use this citation:
+Atul Sharma and Shubhajit Roy Chowdhury. 2026. A Distributed Knowledge Graph Architecture for Cross-Domain Script Analysis: Towards Deciphering Indus Valley. In Companion Proceedings of the 27th International Conference on Distributed Computing and Networking (ICDCN Companion '26). Association for Computing Machinery, New York, NY, USA, 14–15. https://doi.org/10.1145/3737611.3776957
 
 ### Getting the Dataset
 Clone the entire repository
